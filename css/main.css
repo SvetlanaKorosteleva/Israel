@@ -88,10 +88,57 @@
 
 body {
 	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	line-height: 170%;
 	font-weight: normal;
+	color: #484848;
 }
 
 .container {
 	width: 1366px;
 	margin: 0 auto;
+}
+
+.main-navigation {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column-reverse;
+	padding: 32px 110px;
+}
+
+.main-navigation .site-navigation {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-navigation .site-navigation li {
+	list-style-type: none;
+}
+
+.main-navigation .site-navigation li a {
+	line-height: 18px;
+	font-weight: medium;
+	color: #484848;
+	text-decoration: none;
+}
+
+.main-navigation .site-navigation li .btn-call {
+	font-variant: small-caps;
+	border-bottom: 1px dashed #484848;
+}
+
+.main-header .main-header-logo {
+	width: 137px;
+	height: 48px;
+	position: absolute;
+	top: 32px;
+	left: 50%;
 }

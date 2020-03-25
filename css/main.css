@@ -1,0 +1,97 @@
+/*
+	FONTS
+*/
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Regular'), local('FiraSans-Regular'),
+        url('../fonts/FiraSans/FiraSans-Regular.woff2') format('woff2'),
+        url('../fonts/FiraSans/FiraSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'), local('FiraSans-Regular'),
+        url('../fonts/FiraSans/FiraSans-Regular.woff2') format('woff2'),
+        url('../fonts/FiraSans/FiraSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('FiraSans-SemiBold.eot');
+    src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'),
+        url('FiraSans-SemiBold.woff2') format('woff2'),
+        url('FiraSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('FiraSans-Medium.eot');
+    src: local('Fira Sans Medium'), local('FiraSans-Medium'),
+        url('FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FiraSans-Medium.woff2') format('woff2'),
+        url('FiraSans-Medium.woff') format('woff'),
+        url('FiraSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('FiraSans-Bold.eot');
+    src: local('Fira Sans Bold'), local('FiraSans-Bold'),
+        url('FiraSans-Bold.woff2') format('woff2'),
+        url('FiraSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Bold.eot');
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('../fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
+        url('../fonts/Raleway/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Bold'), local('Raleway-Bold'),
+        url('../fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* ================= ============================*/
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: normal;
+}
+
+.container {
+	width: 1366px;
+	margin: 0 auto;
+}
